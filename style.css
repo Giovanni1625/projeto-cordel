@@ -100,6 +100,7 @@ div.fundo-folha > p {
     margin-top: 75px;
     margin-left: 45px;
     text-shadow: 1px 1px 0px black;
+    display: inline-block;
 }
 
 footer {

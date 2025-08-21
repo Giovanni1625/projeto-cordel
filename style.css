@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: titulo;
+    src: url(fontes/Bungee-Regular.ttf);
+}
+
+@font-face {
+    font-family: texto;
+    src: url(fontes/Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: titulo;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    margin-bottom: 80px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header p {
+    color: rgba(175, 172, 172, 0.897);
+    margin-top: -15px;
+    font-family: texto;
+}
+
+main p {
+    text-align: justify;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    font-size: 30px;
+    line-height: 60px;
+    padding-left: 5px;
+    font-family: texto;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+div.fundo-flor {
+    background-image: url(imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+    height: 600px;
+    padding: 10px;
+}
+
+div.fundo-flor > p {
+    background-color: rgba(0, 0, 0, 0.486);
+    width: 370px;
+    height: 430px;
+    padding: 10px 10px 10px 5px;
+    border-radius: 5px;
+    margin-top: 75px;
+}
+
+div.fundo-folha {
+    background-image: url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+    height: 600px;
+    padding: 10px;
+}
+
+div.fundo-folha > p {
+    background-color: rgba(0, 0, 0, 0.486);
+    width: 370px;
+    height: 430px;
+    padding: 10px 10px 10px 5px;
+    border-radius: 5px;
+    margin-top: 75px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    color: rgba(175, 172, 172, 0.897);
+    font-family: texto;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    
+
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

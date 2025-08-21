@@ -1,9 +1,6 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family: titulo;
-    src: url(fontes/Bungee-Regular.ttf);
-}
+
 
 @font-face {
     font-family: texto;
@@ -16,15 +13,16 @@ body {
 
 h1 {
     font-weight: bolder;
-    font-size: 50px;
-    font-family: titulo;
+    font-size: 60px;
+    font-family: texto;
+    font-variant: small-caps;
 }
 
 header {
     text-align: center;
     background-color: black;
     color: white;
-    padding: 40px;
+    padding: 30px;
     margin-bottom: 80px;
 }
 
@@ -41,18 +39,19 @@ header p {
     color: rgba(175, 172, 172, 0.897);
     margin-top: -15px;
     font-family: texto;
+    padding-bottom: 30px;
 }
 
 main p {
     text-align: justify;
     margin-left: 50px;
-    margin-bottom: 100px;
     font-size: 30px;
     line-height: 60px;
-    padding-left: 5px;
     font-family: texto;
     font-size: x-large;
     font-weight: bold;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
 }
 
 div.fundo-flor {
@@ -63,16 +62,18 @@ div.fundo-flor {
     background-attachment: fixed;
     color: white;
     height: 600px;
-    padding: 10px;
+    padding-top: 10px;
+    
+    
 }
 
 div.fundo-flor > p {
-    background-color: rgba(0, 0, 0, 0.486);
-    width: 370px;
-    height: 430px;
-    padding: 10px 10px 10px 5px;
+    background-color: rgba(0, 0, 0, 0.397);
+    padding: 5px;
     border-radius: 5px;
     margin-top: 75px;
+    margin-left: 45px;
+    display: inline-block;
 }
 
 div.fundo-folha {
@@ -83,16 +84,18 @@ div.fundo-folha {
     background-attachment: fixed;
     color: white;
     height: 600px;
-    padding: 10px;
+    padding-top: 10px;
+    
 }
 
 div.fundo-folha > p {
-    background-color: rgba(0, 0, 0, 0.486);
+    background-color: rgba(0, 0, 0, 0.397);
     width: 370px;
     height: 430px;
-    padding: 10px 10px 10px 5px;
+    padding: 5px;
     border-radius: 5px;
     margin-top: 75px;
+    margin-left: 45px;
 }
 
 footer {
